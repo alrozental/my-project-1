@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+.hero {
+  height: 100vh; /* на весь экран */
+  background-image: url("./imeges/Rectangle\ 75.jpg");
+  background-size: cover; /* картинка подгоняется под размер окна */
+  background-position: center; /* центрируется */
+  background-repeat: no-repeat; /* без повторов */
+}
+
+.value-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 480px);
+  grid-auto-rows: auto;
+  column-gap: 120px; row-gap: 30px;
+  justify-self: stretch;
+  justify-content: center;
+  align-items: stretch;
+}
+
