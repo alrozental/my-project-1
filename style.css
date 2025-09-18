@@ -23,3 +23,8 @@ body {
   justify-content: center;
   align-items: stretch;
 }
+.about-flex-li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
